@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#header{
+    display: flex;
+}
+
+.rahima{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.karima{
+    width: 50%;
+
+}
+
+.karima img{
+    height: 747px;
+    margin-top: 5%;
+    margin-left: 3%;
+
+}
+
+.part-1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.part-2{
+    margin-top: 5%;
+    font-size: 27px;
+    margin-bottom: 10%;
+}
+
+.rahima a{
+
+     text-decoration: none;
+     padding: 15px 26px;
+     margin-top: 10px;
+     background-color: #FB9049;
+     color: white;
+     border-radius: 30px;
+     font-weight: bolder;
+
+}
+
+/*ends heade section*/
+
+/*start about section*/
+
+#about{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin-top: 14%;
+    height: 600px;
+}
+
+.hasina{
+    width: 65%;
+}
+
+.hasina img{
+    height: 536px;
+    margin-left: 20%;
+    margin-top: 7%;
+}
+
+.rehana{
+    width: 35%;
+    margin-right: 10%;
+    margin-top: 12%;
+}
+
+.rehana h2{
+    font-size: 30px;
+    color: #707070;
+    
+}
+
+.rehana p{
+    margin-top: 6%;
+    line-height: 32px;
+    margin-bottom: 10%;
+}
+
+.rehana a{
+    padding: 18px 34px;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+}
+/*ends about section*/
+
+/*start recepis*/
+.recipies{
+    
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    margin:  0 auto;
+
+
+}
+.recipies h2{
+    color: #676767;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+
+
+
+/*ends recepis*/
+
+/*card start*/
+#card{
+    display: flex;
+}
+.card-1{
+    width: 23%;
+    margin-top: 7%;
+    box-shadow: 5px 5px  20px gray;
+    padding: 15px 20px;
+    border-radius: 22px;
+    height: 500px;
+    margin-left: 9%;
+}
+
+.card-1 img{
+    margin-left: 5px;
+    width: 260px;
+    height:220px;
+}
+
+.card-1 h3{
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.card-1 p{
+    margin-top: 5px;
+}
+/*card ends*/
+
+/*Start subscribe-section*/
+
+.subscribe-section{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    box-shadow: 7px 7px 30px gray;
+    height: 180px;
+    margin-top: 6%;
+    margin-left: 5%;
+    border-radius: 30px;
+    
+}
+
+.sub-sec-1{
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 11%;
+}
+
+.sub-sec-1 span{
+    font-size: 50px;
+}
+
+.sub-sec-1 i{
+    color: red;
+    font-size: 20px;
+}
+
+.sub-sec-1 h6{
+    font-size: 18px;
+}
+
+.sub-sec-2{
+    width: 30%;
+    margin-top: 3%;
+
+}
+
+.sub-sec-2 i{
+    color:#B82BA3;
+    font-size: 20px;
+}
+
+.sub-sec-2 span{
+    font-size: 50px;
+}
+
+.sub-sec-2 h6{
+    font-size: 18px;
+}
+.sub-sec-3{
+    width: 30%;
+}
+
+
+
+/*Ends subscribe-section*/
+
+
+/*start footer-section*/
+.footer{
+    display: flex;
+    width: 100%;
+    height: 320px;
+    margin-top: 7%;
+    background-color: rgba(90, 121, 118, 0.473);
+}
+
+.footer-p-1{
+    width: 50%;
+    margin-left: 7%;
+    box-shadow: 7px 7px 33px gray;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+
+.footer-p-1 p{
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+.footer-p-1 form{
+    margin-top: 3%;
+    margin-left: 5%;
+
+}
+
+#label{
+    color: purple;
+}
+#name{
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 22px;
+
+}
+
+#text{
+    margin-top:  10px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*ends footer-section*/
+
